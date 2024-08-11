@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ds-bot-2"
+version = "0.1.0"
+description = ""
+authors = ["baltikaa9 <spoetry updateergey4016@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+disnake = {extras = ["voice"], version = "2.9.2"}
+loguru = "^0.7.2"
+python-dotenv = "^1.0.1"
+yt-dlp = "^2024.8.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

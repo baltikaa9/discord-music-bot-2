@@ -1,0 +1,6 @@
+class ServerNotFoundException(Exception):
+    ...
+
+
+class VoiceChatException(Exception):
+    ...
